@@ -1,6 +1,6 @@
 'use strict';
 
-const assert = require('assert');
+const assert = require('chai').assert;
 
 describe('ES2015 Destructing ', () => {
   describe('Arrays', () => {
@@ -53,6 +53,17 @@ describe('ES2015 Destructing ', () => {
 
       // Then
       assert.equal(one, json.numbers.one);
+    });
+
+    it('should not assign missing field', () => {
+      // Given
+      const json = { one: 1, two: 2, three: 3 };
+
+      // When
+      const { invalid } = json;
+
+      // Then
+      assert.isUndefined(invalid);
     });
   });
 });
