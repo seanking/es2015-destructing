@@ -3,8 +3,8 @@
 const assert = require('assert');
 
 describe('ES2015 Destructing ', () => {
-  describe('arrayays', () => {
-    it('should fully destruct an arrayay', () => {
+  describe('arrays', () => {
+    it('should fully destruct an array', () => {
       // Given
       const array = [1, 2, 3];
 
@@ -17,7 +17,7 @@ describe('ES2015 Destructing ', () => {
       assert.equal(third, array[2]);
     });
 
-    it('should partially destruct an arrayay', () => {
+    it('should partially destruct an arrays', () => {
       // Given
       const array = [1, 2, 3];
 
