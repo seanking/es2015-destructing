@@ -2,9 +2,9 @@
 
 const assert = require('chai').assert;
 
-describe('ES2015 Destructing ', () => {
+describe('ES2015 Destructuring ', () => {
   describe('Arrays', () => {
-    it('should fully destruct an array', () => {
+    it('should fully destructure an array', () => {
       // Given
       const array = [1, 2, 3];
 
@@ -17,7 +17,7 @@ describe('ES2015 Destructing ', () => {
       assert.equal(third, array[2]);
     });
 
-    it('should partially destruct an arrays', () => {
+    it('should partially destructure an arrays', () => {
       // Given
       const array = [1, 2, 3];
 
@@ -31,7 +31,7 @@ describe('ES2015 Destructing ', () => {
   });
 
   describe('Objects', () => {
-    it('should destruct a simple object', () => {
+    it('should destructure a simple object', () => {
       // Given
       const json = { one: 1, two: 2, three: 3 };
 
@@ -44,7 +44,7 @@ describe('ES2015 Destructing ', () => {
       assert.equal(three, json.three);
     });
 
-    it('should destruct a complex object', () => {
+    it('should destructure a complex object', () => {
       // Given
       const json = { numbers: { one: 1, two: 2, three: 3 } };
 
