@@ -1,7 +1,7 @@
 {
-  "name": "es2015-destructing",
+  "name": "es2015-destructuring",
   "version": "1.0.0",
-  "description": "Destructing in ES2015",
+  "description": "Destructuring in ES2015",
   "scripts": {
     "lint": "eslint .",
     "test": "mocha --compilers js:babel-register",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seanking/es2015-destructing.git"
+    "url": "git+https://github.com/seanking/es2015-destructuring.git"
   },
   "author": "Sean King",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/seanking/es2015-destructing/issues"
+    "url": "https://github.com/seanking/es2015-destructuring/issues"
   },
-  "homepage": "https://github.com/seanking/es2015-destructing#readme",
+  "homepage": "https://github.com/seanking/es2015-destructuring#readme",
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-plugin-transform-es2015-destructuring": "^6.4.0",

@@ -1,3 +1,3 @@
-# Destructing in ES2015
+# Destructuring in ES2015
 
 TODO
