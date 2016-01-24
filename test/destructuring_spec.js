@@ -28,6 +28,20 @@ describe('ES2015 Destructuring ', () => {
       assert.equal(first, array[0]);
       assert.equal(third, array[2]);
     });
+
+    it('should destructure return value', () => {
+      // Given
+      function f() {
+        return [1, 2];
+      }
+
+      // When
+      const [first, second] = f();
+
+      // Then
+      assert.equal(first, 1);
+      assert.equal(second, 2);
+    });
   });
 
   describe('Objects', () => {
