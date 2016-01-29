@@ -1,6 +1,6 @@
 ## Destructuring Arrays and Objects in ES2015
 
-ES2015 introduced destructuring, a syntactic sugar for extracting data from arrays or objects.  This feature has not gained the attention of other features provided by ES2105, but it may do the most to improve the verbosity of JavaScript. The [destructuring_spec.js](test/destructuring_spec.js) has tests for the examples listed below. 
+ES2015 introduced destructuring, a syntactic sugar for extracting data from arrays or objects.  This feature has not gained the attention of other features provided by ES2105, but it may do the most to improve the verbosity of JavaScript. The [destructuring_spec.js](test/destructuring_spec.js) has tests for the examples listed below.
 
 ### DESTRUCTURING ARRAYS
 
@@ -106,6 +106,6 @@ const { numbers: { one } } = json;
 console.log(one); // prints 1
 ```
 
-# CONCLUSION
+### CONCLUSION
 
 As of this post, most evergreen browsers and [node.js](https://nodejs.org/en/) (using the --harmony_destructuring flag) support destructuring. This means that both the client side and server side's RESTful services can benefit from this destructuring now. To support legacy browsers or services, polyfills or trans-compilers like [Babel](https://babeljs.io) can be used.
